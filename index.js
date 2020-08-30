@@ -1,6 +1,6 @@
 // Code your solution here
 function findMatching(array, target){
-  return array.filter(driver => driver.toLowerCase===target);
+  return array.filter(driver => driver.toLowerCase()===target);
 }
 
 function fuzzyMatch(array, target){
