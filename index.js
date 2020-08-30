@@ -4,9 +4,7 @@ function findMatching(array, target){
 }
 
 function fuzzyMatch(array, target){
-  return array.filter((driver) => {
-    const firstTwo = driver.slice(0, 2)
-  });
+  return array.filter((driver) => return firstTwo = driver.slice(0, 2) === target);
 }
 
 function matchName(array, target){
