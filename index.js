@@ -8,25 +8,6 @@ function fuzzyMatch(array, target){
 }
 
 function matchName(array, target){
-  matchObj = array.filter(driver => driver.name === target);
+  return array.filter(driver => driver.name === target);
   return matchObj.map(obj => obj.name);
 }
-
-const drivers = [
-  {
-    name: 'Bobby',
-    hometown: 'Pittsburgh' },
-  {
-    name: 'Sammy',
-    hometown: 'New York' } ,
-  {
-    name: 'Sally',
-    hometown: 'Cleveland' },
-  {
-    name: 'Annette',
-    hometown: 'Los Angeles' },
-  {
-    name: 'Bobby',
-    hometown: 'Tampa Bay' }
-]
-console.log(matchName(drivers, 'Sally'))
