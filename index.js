@@ -9,5 +9,4 @@ function fuzzyMatch(array, target){
 
 function matchName(array, target){
   return array.filter(driver => driver.name === target);
-  return matchObj.map(obj => obj.name);
 }
