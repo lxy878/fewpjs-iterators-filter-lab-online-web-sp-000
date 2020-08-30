@@ -11,4 +11,21 @@ function matchName(array, target){
   return array.filter(driver => driver.name === target);
 }
 
-console.log(matchName)
+const drivers = [
+  {
+    name: 'Bobby',
+    hometown: 'Pittsburgh' },
+  {
+    name: 'Sammy',
+    hometown: 'New York' } ,
+  {
+    name: 'Sally',
+    hometown: 'Cleveland' },
+  {
+    name: 'Annette',
+    hometown: 'Los Angeles' },
+  {
+    name: 'Bobby',
+    hometown: 'Tampa Bay' }
+]
+console.log(matchName(drivers))
