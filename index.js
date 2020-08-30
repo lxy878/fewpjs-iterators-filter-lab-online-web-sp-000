@@ -28,4 +28,4 @@ const drivers = [
     name: 'Bobby',
     hometown: 'Tampa Bay' }
 ]
-console.log(matchName(drivers))
+console.log(matchName(drivers, 'Sally'))
