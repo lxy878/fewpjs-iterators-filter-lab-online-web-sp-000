@@ -8,8 +8,7 @@ function fuzzyMatch(array, target){
 }
 
 function matchName(array, target){
-  const obj = []
-  return array.filter(driver => {driver.name === target}, obj );
+  matchObj = array.filter(driver => driver.name === target);
 }
 
 const drivers = [
